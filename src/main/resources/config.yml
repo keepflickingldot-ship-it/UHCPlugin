@@ -1,0 +1,34 @@
+# UHCPlugin configuration
+max-players: 30
+grace-time: 1200          # seconds (20 min) of no PvP
+border-start: 4000
+border-end: 100
+border-shrink-time: 3600  # seconds (1 hour)
+golden-head-heal: 4       # hearts
+friendly-fire: false
+auto-start: false
+auto-start-time: 60       # seconds when auto-start enabled
+spawn-spread: 500         # blocks teams are spread on start
+
+scenarios:
+  cutclean: true
+  speeduhc: false
+  nofall: false
+  timebomb: false
+  blooddiamond: false
+  vanilla: false
+
+kits:
+  default:
+    - "STONE_SWORD 1"
+    - "STONE_PICKAXE 1"
+    - "STONE_AXE 1"
+    - "BREAD 16"
+  rusher:
+    - "IRON_SWORD 1"
+    - "GOLDEN_APPLE 2"
+    - "COOKED_BEEF 8"
+  miner:
+    - "IRON_PICKAXE 1"
+    - "TORCH 32"
+    - "COOKED_BEEF 16"

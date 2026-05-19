@@ -1,0 +1,21 @@
+name: UHCPlugin
+version: 1.0.0
+main: com.uhcplugin.Main
+api-version: '1.20'
+author: Lovable
+description: Ultra Hardcore gamemode plugin for Paper 1.20-1.21
+commands:
+  uhc:
+    description: Main UHC command
+    usage: /uhc help
+    aliases: [ultrahardcore]
+permissions:
+  uhc.admin:
+    description: Admin access to all UHC commands
+    default: op
+  uhc.user:
+    description: Regular player access
+    default: true
+  uhc.start:
+    description: Permission to start the game
+    default: op
